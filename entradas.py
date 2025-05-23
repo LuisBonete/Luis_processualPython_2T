@@ -1,0 +1,11 @@
+nome = input ("digite seu nome: ")
+idade = input ("digite sua idade: ")
+endereco = input ("digite onde voce mora: ")
+cpf= input ("digite seu CPF: ")
+telefone = input ("digite seu telefone: ")
+
+print(f"\nOlá {nome}! seja bem vindo. ao nosso programa.")
+print(f"\nVoce possui {idade} anos!, e mora na {endereco}. ")
+print(f"\nSEu CPF é {cpf} e seu contato é {telefone}. ")
+print("\nParabens seus dados foram verificados e eles estão corretos!")
+print("\nSeja bem-vindo ao Monedas!")
