@@ -1,0 +1,16 @@
+nome1 = input("insira o seu nome aqui: ")
+nome2 = input("insira o seu nome aqui: ")
+nome3 = input("insira o seu nome aqui: ")
+nome4 = input("insira o seu nome aqui: ")
+nome5 = input("insira o seu nome aqui: ")
+nome6 = input("insira o seu nome aqui: ")
+nome7 = input("insira o seu nome aqui: ")
+nome8 = input("insira o seu nome aqui: ")
+nome9 = input("insira o seu nome aqui: ")
+nome10 = input("insira o seu nome aqui: ")
+
+lista=[nome1, nome2, nome3, nome4, nome5, nome6, nome7, nome8 , nome9, nome10]
+lista.sort()
+numeros= len(nome1, nome2, nome3, nome4, nome5, nome6, nome7, nome8 , nome9, nome10)
+print(lista)
+print(numeros)
