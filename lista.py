@@ -1,4 +1,4 @@
-usuarios = ["Arthur", "Beatriz", "Caio", "Daniela", "Eduardo", "Fernanda", "Gabriel", "Helena", "Igor", "Júlia",
+nomes = ["Arthur", "Beatriz", "Caio", "Daniela", "Eduardo", "Fernanda", "Gabriel", "Helena", "Igor", "Júlia",
 "Kauã", "Larissa", "Miguel", "Natália", "Otávio", "Olivia", "Pedro", "Patrícia", "Rafael", "Rafaela",
 "Samuel", "Sabrina", "Thiago", "Tainá", "Victor", "Úrsula", "William", "Valentina", "André", "Yasmin",
 "Bruno", "Zuleika", "Diego", "Clara", "Enzo", "Cecília", "Guilherme", "Elisa", "Heitor", "Lívia",
@@ -9,11 +9,16 @@ usuarios = ["Arthur", "Beatriz", "Caio", "Daniela", "Eduardo", "Fernanda", "Gabr
 "Taylor", "Zion", "Avery", "Blair", "Casey", "Devon", "Eden", "Finley", "Gray", "Hunter",
 "Jordan", "Kendall", "Leslie", "Milan", "Nico", "Ocean", "Robin", "Sky", "Terry", "Winter"]
 
-for usuario in usuarios:
-  if usuario == "Milan":
-    print("Usuário encontrado:", usuario) 
-    break
-  print("Verificando:", usuario) 
+for i, nome in enumerate (nomes, start=1):
+    print(nome)
+  if nome == "Úrsula":
+      print("Bonus") 
+ 
+  if i %15 == 0:
+      print("teste")
   
-  contador=1
+  if i == 85:
+      print ("teste")
+      break 
+
   
