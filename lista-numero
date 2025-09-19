@@ -1,18 +1,21 @@
-num1 = input("digite 1 numeos aleatórios:") 
-num2 = input("digite 1 numeos aleatórios:") 
-num3 = input("digite 1 numeos aleatórios:")
-num4 = input("digite 1 numeos aleatórios:") 
-num5 = input("digite 1 numeos aleatórios:")
-num6 = input("digite 1 numeos aleatórios:")
-num7 = input("digite 1 numeos aleatórios:")
-num8 = input("digite 1 numeos aleatórios:")
-num9 = input("digite 1 numeos aleatórios:")
-num10 = input("digite o seu numero da chamada:")
+lista_numeros = []
 
-    lista_numeros.append(num1 , num2, num3, num4, num5 num6, num7, num8 num9, num10)
-    
-    print("\n--- Resultados ---")
-    
-    print(f"Lista original: {lista_numeros}")
+num1 = int(input("Digite 1 número aleatório: "))
+num2 = int(input("Digite 1 número aleatório: "))
+num3 = int(input("Digite 1 número aleatório: "))
+num4 = int(input("Digite 1 número aleatório: "))
+num5 = int(input("Digite 1 número aleatório: "))
+num6 = int(input("Digite 1 número aleatório: "))
+num7 = int(input("Digite 1 número aleatório: "))
+num8 = int(input("Digite 1 número aleatório: "))
+num9 = int(input("Digite 1 número aleatório: "))
+num10 = int(input("Digite o seu número da chamada: "))
 
+lista_numeros = [num1, num2, num3, num4, num5, num6, num7, num8, num9, num10]
 
+ordem = sorted(lista_numeros)
+sem_repeticao = set(lista_numeros)
+
+print(f"\nLista original: {lista_numeros}")
+print(f"Lista em ordem crescente: {ordem}")
+print(f"Lista sem repetição: {sem_repeticao}")
